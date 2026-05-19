@@ -257,7 +257,11 @@
     ],
     "pinned_symbol_libs": [
       "resistor kicad",
-      "resistor"
+      "resistor",
+      "antennas",
+      "connectors",
+      "ic_control",
+      "ic_power"
     ]
   },
   "meta": {
