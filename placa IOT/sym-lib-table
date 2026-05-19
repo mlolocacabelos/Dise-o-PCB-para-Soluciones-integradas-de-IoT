@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "resistor") (type "KiCad") (uri "C:/Users/Mari Angeles/Desktop/Diseño PCB para Soluciones integradas de IoT/library/Symbols/resistor.kicad_sym") (options "") (descr ""))
+)
