@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fe9212da-1cd9-40c8-9620-4ae309c29460")
+	(paper "A4")
+	(title_block
+		(title "BLOQUE ALIMENTACIÓN")
+		(date "19/05/2026")
+		(rev "Mª Angeles Lolo")
+		(company "ELE0226CL")
+	)
+	(lib_symbols)
+)
