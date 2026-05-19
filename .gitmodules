@@ -1,3 +1,6 @@
 [submodule "library"]
 	path = library
 	url = https://github.com/mlolocacabelos/library.git
+[submodule "HardwareLibrary"]
+	path = HardwareLibrary
+	url = https://github.com/reyantonalvaro/HardwareLibrary.git
