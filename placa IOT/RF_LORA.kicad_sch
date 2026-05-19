@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "91b89287-a98c-4001-a580-9b95760c3fb4")
+	(paper "A4")
+	(title_block
+		(title "BLOQUE COMUNICACIÓN")
+		(date "19/05/2026")
+		(rev "Mª Angeles Lolo")
+		(company "ELE0226CL")
+	)
+	(lib_symbols)
+)

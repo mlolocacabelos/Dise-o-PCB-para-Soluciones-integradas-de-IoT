@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c2b344a7-fd9f-4191-9a3c-79e36f629b5e")
+	(paper "A4")
+	(title_block
+		(title "BLOQUE BATERIA")
+		(date "19/05/2026")
+		(rev "Mª Angeles Lolo")
+		(company "ELE0226CL")
+	)
+	(lib_symbols)
+)

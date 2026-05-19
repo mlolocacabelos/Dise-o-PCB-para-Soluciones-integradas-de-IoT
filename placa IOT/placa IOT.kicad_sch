@@ -2,9 +2,199 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910)
-	(paper "A4")
+	(uuid "fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910")
+	(paper "A3")
+	(title_block
+		(title "BLOQUE ALIMENTACIÓN")
+		(date "19/05/2026")
+		(rev "Mª Angeles Lolo")
+		(company "ELE0226CL")
+	)
 	(lib_symbols)
+	(sheet
+		(at 257.81 40.64)
+		(size 135.89 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "04ee4292-769c-446c-ae88-043e80bec59b")
+		(property "Sheetname" "Bateria"
+			(at 257.81 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bateria.kicad_sch"
+			(at 257.81 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "placa IOT"
+				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 132.08)
+		(size 73.66 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e5d1f4b-58b7-45e8-b2dd-2991251889e0")
+		(property "Sheetname" "RF_LORA"
+			(at 44.45 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_LORA.kicad_sch"
+			(at 44.45 221.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "placa IOT"
+				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 40.64)
+		(size 45.72 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "22343cd4-5b31-4beb-bd6f-fa20ca7c9cbe")
+		(property "Sheetname" "Alimentacion"
+			(at 68.58 39.9284 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentacion.kicad_sch"
+			(at 68.58 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "placa IOT"
+				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 40.64)
+		(size 41.91 162.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b110d936-1717-4256-b0de-00c7e20cfda6")
+		(property "Sheetname" "MCU_WIFIBLU"
+			(at 180.34 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_WIFIBLU.kicad_sch"
+			(at 180.34 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "placa IOT"
+				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
