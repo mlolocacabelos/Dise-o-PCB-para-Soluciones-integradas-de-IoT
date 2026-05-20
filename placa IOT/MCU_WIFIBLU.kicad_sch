@@ -4506,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 171.45) (xy 266.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33ef37c-9ba9-4602-b707-0c3dc784550b")
+	)
+	(wire
+		(pts
 			(xy 154.94 85.09) (xy 167.64 85.09)
 		)
 		(stroke
@@ -5195,7 +5205,7 @@
 		(uuid "eee54ed3-cc50-4014-8677-d35ef9f578d9")
 	)
 	(label "U0TXD"
-		(at 266.7 171.45 0)
+		(at 269.24 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6601,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 311.15 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7460,7 +7470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65daa459-9451-4068-b176-edcafac80d10")
-		(property "Reference" "#PWRVBUS"
+		(property "Reference" "#PWRVBUS03"
 			(at 323.85 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7520,7 +7530,7 @@
 		(instances
 			(project "placa IOT"
 				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/b110d936-1717-4256-b0de-00c7e20cfda6"
-					(reference "#PWRVBUS")
+					(reference "#PWRVBUS03")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 187.96 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 149.86 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9848,7 +9858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0ceddec-fc5c-490a-81d7-457237e135b4")
-		(property "Reference" "#PWRVBAT"
+		(property "Reference" "#PWRVBAT05"
 			(at 318.77 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9908,7 +9918,7 @@
 		(instances
 			(project "placa IOT"
 				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/b110d936-1717-4256-b0de-00c7e20cfda6"
-					(reference "#PWRVBAT")
+					(reference "#PWRVBAT05")
 					(unit 1)
 				)
 			)

@@ -4950,7 +4950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 78.74 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5530,7 +5530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 110.49 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 81.28 125.73 0)
 			(hide yes)
 			(show_name no)
