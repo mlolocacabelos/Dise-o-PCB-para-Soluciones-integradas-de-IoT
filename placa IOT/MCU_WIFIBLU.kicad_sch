@@ -3185,6 +3185,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 63.5) (xy 336.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ac8e33-69fc-43d0-bf58-c8fb776232ea")
+	)
+	(wire
+		(pts
 			(xy 194.31 181.61) (xy 149.86 181.61)
 		)
 		(stroke
@@ -3542,6 +3552,16 @@
 			(type default)
 		)
 		(uuid "53baab45-80d8-41ba-b024-330a33047c8a")
+	)
+	(wire
+		(pts
+			(xy 323.85 57.15) (xy 323.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540fce3b-cac0-47cc-8dd2-7bde5f5e9762")
 	)
 	(wire
 		(pts
@@ -4185,16 +4205,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 63.5) (xy 336.55 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ee0d8a-506b-4bd7-ba2b-92a79c779f05")
-	)
-	(wire
-		(pts
 			(xy 194.31 138.43) (xy 177.8 138.43)
 		)
 		(stroke
@@ -4642,16 +4652,6 @@
 			(justify left bottom)
 		)
 		(uuid "716cf37b-dc06-4753-bb0e-b624bca4e9b6")
-	)
-	(label "VBUS"
-		(at 326.39 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8031b6b6-beb4-4dd3-bf94-925c090be347")
 	)
 	(label "IO6"
 		(at 177.8 138.43 0)
@@ -6967,6 +6967,83 @@
 			(project "placa IOT"
 				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/b110d936-1717-4256-b0de-00c7e20cfda6"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 323.85 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65daa459-9451-4068-b176-edcafac80d10")
+		(property "Reference" "#PWRVBUS"
+			(at 323.85 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 324.612 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 323.85 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dc1a1cc-c6ee-4fd4-81c6-ddf584ebcfd7")
+		)
+		(instances
+			(project "placa IOT"
+				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/b110d936-1717-4256-b0de-00c7e20cfda6"
+					(reference "#PWRVBUS")
 					(unit 1)
 				)
 			)
