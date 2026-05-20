@@ -5725,7 +5725,7 @@
 		(dnp no)
 		(uuid "24e09de9-35d6-4e5e-bcab-4a58978df0e6")
 		(property "Reference" "C15"
-			(at 275.59 189.2299 0)
+			(at 266.7 189.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5736,7 +5736,7 @@
 			)
 		)
 		(property "Value" "NC"
-			(at 275.59 191.7699 0)
+			(at 267.97 192.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
