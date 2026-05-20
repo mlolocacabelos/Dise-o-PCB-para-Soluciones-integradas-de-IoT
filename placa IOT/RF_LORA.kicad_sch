@@ -1455,7 +1455,7 @@
 		(uuid "7169945c-2e14-4eaa-92d9-a8cc06484f3c")
 	)
 	(hierarchical_label "IO36"
-		(shape input)
+		(shape bidirectional)
 		(at 114.3 80.01 180)
 		(effects
 			(font

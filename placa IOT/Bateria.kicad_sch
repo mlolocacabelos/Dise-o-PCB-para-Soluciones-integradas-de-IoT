@@ -2302,12 +2302,6 @@
 		(uuid "25120ca5-900b-4902-9c5d-7bc3ef488154")
 	)
 	(junction
-		(at 262.89 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "362ad728-fb2f-4c5f-85f3-6c4c488f34ba")
-	)
-	(junction
 		(at 250.19 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2737,13 +2731,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 104.14) (xy 271.78 104.14)
+			(xy 250.19 82.55) (xy 262.89 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54d77525-9d31-4537-87a4-492f6e80e8c7")
+		(uuid "54cb4952-b056-42dc-9175-83af03b39487")
 	)
 	(wire
 		(pts
@@ -2827,16 +2821,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 82.55) (xy 262.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d310c48-6c33-49b5-b7eb-c927836548e4")
-	)
-	(wire
-		(pts
 			(xy 260.35 115.57) (xy 271.78 115.57)
 		)
 		(stroke
@@ -2914,16 +2898,6 @@
 			(type default)
 		)
 		(uuid "79855dc3-a77f-4fb4-9b55-3766a4bdc18c")
-	)
-	(wire
-		(pts
-			(xy 262.89 82.55) (xy 264.16 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc81322-6eaa-454e-b1e9-88696be944da")
 	)
 	(wire
 		(pts
@@ -3087,16 +3061,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 110.49 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fdb29f-b2c8-4d8b-8817-9e4c8cc5da19")
-	)
-	(wire
-		(pts
 			(xy 219.71 101.6) (xy 232.41 101.6)
 		)
 		(stroke
@@ -3256,7 +3220,7 @@
 		(uuid "ff6ffe8c-9882-4aea-9993-3855abb6301f")
 	)
 	(hierarchical_label "ID1"
-		(shape input)
+		(shape output)
 		(at 271.78 115.57 0)
 		(effects
 			(font
@@ -3267,7 +3231,7 @@
 		(uuid "4a42d4d5-0f7f-498a-ba33-96627a3c7053")
 	)
 	(hierarchical_label "IO4"
-		(shape input)
+		(shape output)
 		(at 49.53 52.07 180)
 		(effects
 			(font
@@ -3276,17 +3240,6 @@
 			(justify right)
 		)
 		(uuid "75698e99-4a44-4913-a8aa-c6e6abd6f649")
-	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 271.78 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb2fab91-c667-4d63-ab2b-63738c8f5d10")
 	)
 	(symbol
 		(lib_id "Device:R")

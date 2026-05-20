@@ -5224,6 +5224,171 @@
 		)
 		(uuid "fe470cb9-c4d6-47da-a84a-3947f032a5b8")
 	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 177.8 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0220459f-379f-48ff-bbcc-7c8aad8ea63d")
+	)
+	(hierarchical_label "IO9"
+		(shape output)
+		(at 177.8 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "078f3219-a893-4b36-826d-1d73bd73b55d")
+	)
+	(hierarchical_label "LORA_TX"
+		(shape output)
+		(at 177.8 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f025abb-a06c-4212-a3e5-54717557d7c6")
+	)
+	(hierarchical_label "ID1"
+		(shape input)
+		(at 177.8 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35f65dd7-c621-4b83-a10c-6479e87d5dea")
+	)
+	(hierarchical_label "IO33"
+		(shape output)
+		(at 255.27 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3605aec5-d033-4601-b3c0-14ffa5ba5247")
+	)
+	(hierarchical_label "IO8"
+		(shape output)
+		(at 177.8 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "399eda04-db98-4699-86df-00c34865de59")
+	)
+	(hierarchical_label "IO7"
+		(shape output)
+		(at 177.8 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5445bb7f-7033-4ca6-a521-e5f2b8296d83")
+	)
+	(hierarchical_label "IO34"
+		(shape output)
+		(at 255.27 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ce7c8c5-79c1-40f5-be4c-ae7642749006")
+	)
+	(hierarchical_label "IO3"
+		(shape output)
+		(at 177.8 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69f11000-f571-49e8-b4b9-a7703edb7e7d")
+	)
+	(hierarchical_label "IO5"
+		(shape output)
+		(at 177.8 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ff3632d-e780-492d-aa5f-7174b40f627a")
+	)
+	(hierarchical_label "IO4"
+		(shape input)
+		(at 177.8 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "937e834d-f2d9-42c9-8e68-33683b56a7a9")
+	)
+	(hierarchical_label "IO36"
+		(shape bidirectional)
+		(at 255.27 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a7598d9-a0b2-43d2-bfc1-42a78a2f65b2")
+	)
+	(hierarchical_label "LORA_RX"
+		(shape output)
+		(at 177.8 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c852925d-8d00-4a91-80d0-a6688c0059b5")
+	)
+	(hierarchical_label "IO6"
+		(shape output)
+		(at 177.8 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8ccfa8f-ddb4-4947-a0a5-ee271ebe3219")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 177.8 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e07e2ba6-9610-4bcb-bf27-4ddc48dca464")
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 139.7 106.68 0)
