@@ -425,7 +425,7 @@
         "uuid": "fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910"
       }
     ],
-    "used_designators": "D1,#PWR31-48,C20-25,R7-13,J1-3,#PWRVBUS1,SW1-2,U5,Q1",
+    "used_designators": "D1-9,#PWR31-59,C20-28,R7-28,J1-7,#PWRVBUS1-2,SW1-4,U5-6,Q1-2,#PWRVBAT1-4,FL1",
     "variants": []
   },
   "sheets": [
@@ -448,6 +448,10 @@
     [
       "04ee4292-769c-446c-ae88-043e80bec59b",
       "Bateria"
+    ],
+    [
+      "b497ce86-43c4-47d2-b4e4-dba42aa4b425",
+      "USB"
     ]
   ],
   "text_variables": {},
