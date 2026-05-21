@@ -4175,6 +4175,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 107.95 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32015080-9bd3-426b-bf9d-bba92472ef13")
+		(property "Reference" "SW5"
+			(at 113.03 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 113.03 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+			(at 107.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 107.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "adabde16-c3f8-4b54-b07e-7618fde53d1b")
+		)
+		(pin "5"
+			(uuid "a67644ee-47e8-4689-87db-26e9315fff38")
+		)
+		(pin "2"
+			(uuid "43d2385a-53bc-4bd6-85f9-56e9d847c462")
+		)
+		(pin "3"
+			(uuid "a202b63f-67e4-4223-887a-9d0d7a136f3e")
+		)
+		(pin "4"
+			(uuid "976b1fbe-e7e9-4867-9d81-56a4dd1891dd")
+		)
+		(pin "1"
+			(uuid "f8461e41-129f-4fae-87e3-452c55f49da7")
+		)
+		(instances
+			(project "placa IOT"
+				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/04ee4292-769c-446c-ae88-043e80bec59b"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 55.88 20.32 0)
 		(unit 1)
@@ -4328,100 +4422,6 @@
 			(project "placa IOT"
 				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/04ee4292-769c-446c-ae88-043e80bec59b"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 107.95 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47409980-c14b-415f-9e86-a1f70cdc93ce")
-		(property "Reference" "SW3"
-			(at 113.03 92.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_DPDT_x2"
-			(at 113.03 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 107.95 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "adabde16-c3f8-4b54-b07e-7618fde53d1b")
-		)
-		(pin "5"
-			(uuid "a67644ee-47e8-4689-87db-26e9315fff38")
-		)
-		(pin "2"
-			(uuid "9fc9df6d-0267-4853-adbc-dfd8de5dc98d")
-		)
-		(pin "3"
-			(uuid "a9dac551-0453-499c-84b1-a0a586b735fb")
-		)
-		(pin "4"
-			(uuid "976b1fbe-e7e9-4867-9d81-56a4dd1891dd")
-		)
-		(pin "1"
-			(uuid "dffad6c3-f7bd-498d-a2de-87f835dea3dc")
-		)
-		(instances
-			(project "placa IOT"
-				(path "/fbbb61cd-c6c4-4d51-9fb8-e36c0f4e7910/04ee4292-769c-446c-ae88-043e80bec59b"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
